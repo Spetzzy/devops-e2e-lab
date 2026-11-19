@@ -1,0 +1,9 @@
+# Ignore the self-hosted runner directory (contains secrets and binaries)
+actions-runner/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore environment variables and secrets
+.env
